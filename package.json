@@ -1,0 +1,40 @@
+{
+  "name": "the-nine-game",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.1.0",
+    "typescript": "5.7.3",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "vitest": "3.0.5"
+  },
+  "description": "一款支持自定义牌面、动态洗牌和实时奖池的九宫格直觉选择游戏。",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echoCYQ/the-nine-game.git"
+  },
+  "homepage": "https://github.com/echoCYQ/the-nine-game#readme",
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "card-game",
+    "九宫格",
+    "直觉游戏"
+  ]
+}
