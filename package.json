@@ -28,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/echoCYQ/the-nine-game.git"
   },
-  "homepage": "https://github.com/echoCYQ/the-nine-game#readme",
+  "homepage": "https://echoCYQ.github.io/the-nine-game/",
   "keywords": [
     "react",
     "typescript",
